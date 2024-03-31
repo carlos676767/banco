@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.telaDeRegistro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    gap: 30px
+    ;
+    border: 2px solid hsl(233, 26%, 24%);
+}
+
+body{
+    background-image: url(public/easybank-landing-page-master/images/bg-intro-desktop.svg);
+    background-size: cover;
+}
+
+img{
+    width: 300px;
+    background-image: url(public/easybank-landing-page-master/images/bg-intro-desktop.svg);
+    border-radius: 5px;
+}
+
+input{
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.logo{
+    width: 100px;
+}
+
+
+
+button{
+    padding: 7px;
+    width: 100%;
+    color: white;
+    background-color:  #2DC0AF;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+}
